@@ -1,0 +1,20 @@
+\documentclass{article}
+\usepackage{fullpage}
+\usepackage{graphics,graphicx}
+% \usepackage[landscape]{geometry}
+
+% \usepackage{lscape}
+
+\usepackage{ifpdf}
+\ifpdf
+\DeclareGraphicsRule{*}{mps}{*}{}
+\else
+\DeclareGraphicsRule{*}{eps}{*}{}
+\fi
+
+\begin{document}
+
+\includegraphics{simple_graph.1}
+
+\end{document}
+ 

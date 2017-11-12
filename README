@@ -1,0 +1,18 @@
+README for the Energy Games Solver Tool 
+	author: Carlo (carlo.comin@alumni.unitn.it)
+
+This project is a C/C++ code.
+This code has beeen tested on Linux OS.
+
+Install requirements:
+The OCAML compiler (http://ocaml.org/docs/install.html)
+                   (quick-install-guide for Debian/Ubuntu: # apt-get install ocaml)
+
+To compile the 2015 v1 Tool:
+1. Install OCaml on your Linux box
+2. extract EnergyGames-Solver_v0.1.zip to folder "EnergyGames-Solver_v0.1", 
+   and execute the following commands:
+3. # cd EnergyGames-Solver_v0.1
+4. # make all -f pgsolver/tcslib/Makefile
+5. # make all -f pgsolver/Makefile
+6. # make all -f Makefile
